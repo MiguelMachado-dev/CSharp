@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 - condicionais", "8 - con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10-CalculaPoupanca", "10-CalculaPoupanca\P10-CalculaPoupanca.csproj", "{332FC94B-30B9-4403-BE86-517B6BB31A51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11-CalculaPoupancaFor", "P11-CalculaPoupancaFor\P11-CalculaPoupancaFor.csproj", "{06C20D96-576B-4422-AF2F-25FBC6E25648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{332FC94B-30B9-4403-BE86-517B6BB31A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{332FC94B-30B9-4403-BE86-517B6BB31A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{332FC94B-30B9-4403-BE86-517B6BB31A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C20D96-576B-4422-AF2F-25FBC6E25648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C20D96-576B-4422-AF2F-25FBC6E25648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C20D96-576B-4422-AF2F-25FBC6E25648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C20D96-576B-4422-AF2F-25FBC6E25648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
