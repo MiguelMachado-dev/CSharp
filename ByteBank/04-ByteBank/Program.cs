@@ -18,6 +18,14 @@ namespace _04_ByteBank
             conta.Depositar(500);
             Console.WriteLine($"Saldo apos deposito: {conta.saldo}");
 
+            ContaCorrente contaDaGabriela = new ContaCorrente();
+            conta.titular = "Gabriela";
+
+
+            conta.Transferir(200, contaDaGabriela);
+            Console.WriteLine($"\nSaldo apos transferir: {conta.saldo}");
+            Console.WriteLine($"Saldo da Gabriela apos receber transferencia: {contaDaGabriela.saldo}");
+
             Console.ReadLine();
         }
     }
