@@ -6,6 +6,7 @@ namespace _07_ByteBank
     {
         // Propriedades
         public Cliente Titular { get; set; }
+        public static int TotalDeContasCriadas { get; private set; }
         public int Agencia { get; set; }
         public int Numero { get; set; }
 
@@ -33,6 +34,8 @@ namespace _07_ByteBank
         {
             Agencia = agencia;
             Numero = numero;
+
+            TotalDeContasCriadas++;
         }
 
         // Retorna valor = function
